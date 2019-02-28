@@ -1,0 +1,56 @@
+[  
+   {  
+      "flyerId":"ea946a84-81a7-11e4-b116-123b93f75cba",
+      "flyerType":"pdf",
+      "month":1,
+      "recordId":101,
+      "tenantId":"0efd59f6-97b7-11e4-b100-123b93f75cba",
+      "title":"January/February 2014 Newsletter",
+      "year":2014
+   },
+   {  
+      "flyerId":"ea946a84-81a7-11e4-b116-123b93f75cba",
+      "flyerType":"pdf",
+      "month":3,
+      "recordId":102,
+      "tenantId":"0efd59f6-97b7-11e4-b100-123b93f75cba",
+      "title":"March/April 2014 Newsletter",
+      "year":2014
+   },
+   {  
+      "flyerId":"ea946a84-81a7-11e4-b116-123b93f75cba",
+      "flyerType":"pdf",
+      "month":5,
+      "recordId":103,
+      "tenantId":"0efd59f6-97b7-11e4-b100-123b93f75cba",
+      "title":"May/June 2014 Newsletter",
+      "year":2014
+   },
+   {  
+      "flyerId":"ea946a84-81a7-11e4-b116-123b93f75cba",
+      "flyerType":"pdf",
+      "month":1,
+      "recordId":104,
+      "tenantId":"0efd59f6-97b7-11e4-b100-123b93f75cba",
+      "title":"January/February 2013 Newsletter",
+      "year":2013
+   },
+   {  
+      "flyerId":"ea946a84-81a7-11e4-b116-123b93f75cba",
+      "flyerType":"pdf",
+      "month":4,
+      "recordId":105,
+      "tenantId":"0efd59f6-97b7-11e4-b100-123b93f75cba",
+      "title":"March/April 2013 Newsletter",
+      "year":2013
+   },
+   {  
+      "flyerId":"ea946a84-81a7-11e4-b116-123b93f75cba",
+      "flyerType":"pdf",
+      "month":5,
+      "recordId":106,
+      "tenantId":"0efd59f6-97b7-11e4-b100-123b93f75cba",
+      "title":"May/June 2013 Newsletter",
+      "year":2013
+   }
+]
