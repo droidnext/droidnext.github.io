@@ -12,5 +12,12 @@
       "question":"How do i get gate code?",
       "recordId":102,
       "tenantId":"0efd59f6-97b7-11e4-b100-123b93f75cba"
+   },
+   {  
+      "answer":"Every Google Account starts with 15 GB of free storage that’s shared across Google Drive, Gmail, and Google Photos. When you upgrade to Google One, your total storage increases to 100 GB or more depending on what plan you choose. You also get extra member benefits and access to support from Google experts - all of which you can share with your family",
+      "orderId":3,
+      "question":"Google question?",
+      "recordId":102,
+      "tenantId":"0efd59f6-97b7-11e4-b100-123b93f75cba"
    }
 ]
