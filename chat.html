@@ -6,14 +6,14 @@
 				
 				<script type="module">
 					import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
-					import { v4 as uuidv4 } from "https://cdn.jsdelivr.net/npm/uuid@11.0.3/dist/cjs-browser/index.min.js";
-					uuid = uuidv4();
+					import { v4 as uuidv4 } from 'https://cdn.skypack.dev/uuid';
+					const chatSessionKey = uuidv4();
 					createChat({
 						webhookUrl: "https://agents.samuha.co/webhook/bea4bff6-d8b7-434b-946f-f5cd77ae1cc1/chat",
 						showWelcomeScreen: true,
 						mode: 'fullscreen',
 						defaultLanguage: 'en',
-						chatSessionKey: uuid,
+						chatSessionKey: chatSessionKey,
 						initialMessages: [
 							
 						],
