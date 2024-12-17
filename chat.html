@@ -41,7 +41,15 @@
 			</div>
 
   </div>
+<script>
+	// Find all elements with the class 'target-text'
+	const elements = document.querySelectorAll('.chat-powered-by');
 
+
+	elements.forEach(element => {
+	  element.textContent = element.textContent.replace('n8n', 'RiskRadar');
+	});
+</script>
 
   <style>
 	#n8n-chat {
