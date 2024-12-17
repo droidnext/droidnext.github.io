@@ -1,13 +1,5 @@
 <div>
-<img
-				class="logo-default"
-				src="https://cognossi.com/wp-content/uploads/2024/09/logo-1.png"
-				alt="Cognosphere Innovations Pte Ltd"
-			/>
-			<h1>Risk Management Solution</h1>
-				<div class="n8n-chat" id="n8n-chat">
-
-				<link
+	<link
 					href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css"
 					rel="stylesheet"
 				/>
@@ -16,8 +8,31 @@
 
 					createChat({
 						webhookUrl: "https://agents.samuha.co/webhook/bea4bff6-d8b7-434b-946f-f5cd77ae1cc1/chat",
+						showWelcomeScreen: true,
+						defaultLanguage: 'en',
+						initialMessages: [
+							
+						],
+						i18n: {
+							en: {
+								title: 'Welcome to RiskRadar powered by AI !',
+								subtitle: "First AI powered Vendor Risk Assessment ChatBot from CognoSSI Singapore.  Assess your risk profile quickly and efficiently.",
+								footer: '',
+								getStarted: 'New Conversation',
+								inputPlaceholder: 'Type your question..',
+							},
+						},
 					});
 				</script>
+<img
+				class="logo-default"
+				src="https://cognossi.com/wp-content/uploads/2024/09/logo-1.png"
+				alt="Cognosphere Innovations Pte Ltd"
+			/>
+			<h1>Risk Management Solution</h1>
+				<div class="n8n-chat" id="n8n-chat">
+
+				
 			</div>
 
   </div>
