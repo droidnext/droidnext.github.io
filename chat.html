@@ -22,7 +22,7 @@
 				   return uuid.join('');
 				}
 				</script>
-				<script>
+				<script type="module">
 					import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
 
 					createChat({
@@ -38,7 +38,7 @@
 							en: {
 								title: 'Welcome to RiskRadar powered by AI !',
 								subtitle: "First AI powered Vendor Risk Assessment ChatBot from CognoSSI Singapore.  Assess your risk profile quickly and efficiently.",
-								footer: 'Powered by <a href=https://cognossi.com/ >CognoSSI</a> ',
+								footer: 'Powered by CognoSSI',
 								getStarted: 'New Conversation',
 								inputPlaceholder: 'Type your question..',
 							},
@@ -102,7 +102,7 @@
 
 	--chat--header-height: auto;
 	--chat--header--padding: var(--chat--spacing);
-	--chat--header--background: var(--chat--color-dark);
+	--chat--header--background: var(--chat--color-blue);
 	--chat--header--color: var(--chat--color-light);
 	--chat--header--border-top: none;
 	--chat--header--border-bottom: none;
