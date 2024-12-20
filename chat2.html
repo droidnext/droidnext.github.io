@@ -3,34 +3,7 @@
 <link rel="apple-touch-icon" sizes="72x72" href="https://cognossi.com/wp-content/uploads/2024/09/fevicon.png">
 <div>
 	<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet"/>
-	<script type="module">
-			import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
-			// import { v4 as uuidv4 } from 'https://cdn.skypack.dev/uuid';
-			// const chatSessionKey = uuidv4();
-			createChat({
-				webhookUrl: "https://agents.samuha.co/webhook/fb7de841-362b-4b3f-9eae-e6368cec2746/chat",
-				webhookConfig: {
-					method: 'POST',
-					headers: { 'mode': 'no-cors'}
-				},
-				showWelcomeScreen: true,
-				mode: 'fullscreen',
-				defaultLanguage: 'en',
-				chatInputKey: 'chatInput',
-				chatSessionKey: 'sessionId',
-				initialMessages: ["Let's get started with company name!"],
-				i18n: {
-					en: {
-						title: 'Welcome to RiskRadar powered by AI !',
-						subtitle: "First AI powered Vendor Risk Assessment ChatBot from CognoSSI Singapore.  Assess your risk profile quickly and efficiently.",
-						// footer: 'Powered by CognoSSI',
-						getStarted: 'New Conversation',
-						inputPlaceholder: 'Type your question..',
-					},
-				},
-				allowFileUploads: true,
-			});
-		</script>
+	
 	<div class="inline-header-div">
 		<img
 			class="logo-default"
@@ -40,6 +13,11 @@
 		<h2>Risk Management Solution</h2>
 	</div>
 	<div class="n8n-chat" id="n8n-chat">
+		<iframe src="https://agents.samuha.co/form-test/427dffca-be69-47da-933a-6980aca02ba8" 
+        frameborder="0" 
+        width="100%" 
+        height="800px">
+</iframe>
 	</div>
   </div>
   <script>
